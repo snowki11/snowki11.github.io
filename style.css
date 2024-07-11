@@ -1,0 +1,300 @@
+body{
+    margin: 0;
+    }
+    .header{
+    height: 80px;
+    background-color: #4D77A9;
+    
+    }
+    .redirect-btn {
+        background: #F4E8DC;
+        color: #4D77A9;
+        padding: 1em 2em;
+        user-select: none;
+        border-radius: 1000px;
+        cursor: pointer;
+    }
+    
+    .redirect-btn:hover {
+        background: #3C4D6C;
+        box-shadow: 0 0 5px .5px #F4E8DC;
+    }
+    
+    .redirect-btn:active {
+        background: #4D77A9;
+        box-shadow: none;
+        color: #4D77A9;
+    }
+    .logo{
+    position: absolute;
+    width: 47px;
+    left: 40px;
+    top: 7px;
+    }
+     .menu{
+    width: 700px;
+    height: 80px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; 
+    justify-content:space-evenly;
+    margin: auto;
+
+    }
+    .menu-elements{
+    font-family: 'Koulen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;  
+    text-transform: uppercase;
+    color: #F4E8DC;
+    text-decoration: none;
+    }
+
+    .container{
+    display: flex;
+    width: 1440px;
+    height: 550px;
+    padding-left: 40px;
+    padding-right: 50px;
+    }
+
+    .block
+    {   
+    border-radius: 32px 0px 0px 32px;
+    background-color: #4D77A9;
+    padding-left: 82.4px;
+    width: 797px;
+    height: 550px;
+    }
+    .img{
+
+    height: 550px;
+    border-radius: 27px;
+    }
+    .main-text{
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 70px;
+    color: #F4E8DC;  
+    }
+    
+    .type-phone{
+    font-family: 'Readex Pro';
+    font-style: normal;
+    color: #F4E8DC;    
+    }
+    .button{
+    font-family: 'Koulen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;   
+    text-transform: capitalize;
+    color: #F4E8DC;
+    box-sizing: border-box;
+    position: absolute;
+    width: 184px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid #F4E8DC;
+    border-radius: 200px;
+    }
+    .text{
+
+    width: 642px;
+    height: 53px;
+    padding-top: 120px;
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: center;
+    margin: auto;
+    color: #F4E8DC;
+    }
+
+    .card-img
+    {
+      height: 214px;
+    }
+    .container-cards
+    {
+        padding-top: 48px;
+        width: 1434px;
+        height: 606;
+        display: flex;
+        justify-content: space-evenly;
+    }
+ 
+    .text-card
+{
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;  
+    color:#4D77A9;
+}
+    .price-card
+{
+    font-family: 'Koulen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;  
+    color: #4D77A9;
+}
+.last-block
+{
+width: 1437px;
+padding-top: 27px;
+margin-left: 54px;
+margin-right: 44px;
+background-color: #F4E8DC;
+padding-bottom: 250px;
+}
+.last-block1
+{
+width: 1437px;
+padding-top: 27px;
+margin-left: 54px;
+margin-right: 44px;
+background-color: #F4E8DC;
+padding-bottom: 250px;
+}
+.img-last-block
+{
+    width: 240px;
+    display: block;
+    margin: auto;
+}
+.text-last-block
+{
+font-family: 'Readex Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 42px;
+line-height: 52px;
+text-align: center;
+color: #4D77A9;
+display: block;
+margin: auto;
+padding-bottom: 30px;
+}
+.elem-last-block
+{
+    width: 400px;
+    height: 50px;
+    display: block;
+    margin-left: 450px;
+}
+.type-phone
+{
+padding: 0 20px;
+height: 30px;
+box-sizing: border-box;
+background: #93b6e0;
+border: 3px solid #4D77A9;
+border-radius: 54px 0px 0px 54px;
+}
+.subm
+{
+height: 30px;
+background: #F4E8DC;
+border-radius: 0px 200px 200px 0px;
+font-family: 'Koulen';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+color: #4D77A9;
+}
+.content-input
+{
+padding-top:20px;
+display: flex;
+justify-content: flex-end;
+color: #4D77A9;
+}
+.user-wrapper
+{
+height: 30px;
+background: #F4E8DC;
+border-radius: 0px 200px 200px 0px;
+font-family: 'Koulen';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+color: #4D77A9;
+}
+.user-info-group
+{
+    height: 30px;
+    background: #F4E8DC;
+    border-radius: 0px 200px 200px 0px;
+    font-family: 'Koulen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #4D77A9;
+}
+.container { 
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.items-row { 
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.item-card {
+    width: 20vw;
+    box-sizing: border-box;
+    border-radius: 7px;
+    border: 3px solid #4D77A9;
+}
+
+.item-card h3 {
+    padding: 0 .5em;
+}
+
+.card-top {
+    padding: 0;
+    width: 100%;
+    aspect-ratio: 1;
+    overflow: hidden;
+}
+
+.card-bottom {
+    box-sizing: border-box;
+    padding: .5em;
+}
+
+.description {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.price {
+    font-weight: 600;
+}
